@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My Notes App</h1>
+      <h1>Status Report System</h1>
       <input type="file" onChange={onChange} />
       <input
         onChange={e => setFormData({ ...formData, 'name': e.target.value})}
