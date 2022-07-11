@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +36,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* .button {
+  padding-bottom: 10px;
+} */
+
+/* #id {
+  display: inherits;
+} */
+#proj, #wk, #bill, #perf, #back {
+  /* margin-bottom: -5%; */
+  padding-bottom: 0.5%;
+}
+
+#jan_1, #feb_1, #mar_1, #apr_1, #may_1, #jun_1, #jul_1, #aug_1, #sept_1, #oct_1, #nov_1, #dec_1   {
+  padding-bottom: 0.5%;
+  /* text-align: left; */
+  /* left: 100%; */
+}
+
+#jan_2, #feb_2, #mar_2, #apr_2, #may_2, #jun_2, #jul_2, #aug_2, #sept_2, #oct_2, #nov_2   {
+  padding-bottom: 0.5%;
+  /* text-align: left; */
+  /* left: 100%; */
+}
+
+#jan_3, #feb_3, #mar_3, #apr_3, #may_3, #jun_3, #jul_3, #aug_3, #sept_3, #oct_3, #nov_3   {
+  padding-bottom: 0.5%;
+  /* text-align: left; */
+  /* left: 100%; */
+}
+
+#jan_4, #feb_4, #mar_4, #apr_4, #may_4, #jun_4, #jul_4, #aug_4, #sept_4, #oct_4, #nov_4   {
+  padding-bottom: 0.5%;
+  /* text-align: left; */
+  /* left: 100%; */
+}
+
+.button {
+  /* position: absolute; */
+  /* padding-top: 0.5%; */
+  /* bottom: 75%; */
+  height: 100%;
+  /* width: 100%; */
+
+}
+
+#button {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+input {
+  margin-left: 0.5%;
+}
+
+/* #proj_stat, #proj_stat_notes{
+  position: relative;
+  left: 1%;
+} */
+
+#notes_label {
+  position: relative;
+  left: .5%;
+}
+
+h3 {
+  padding-top: 1%;
 }
