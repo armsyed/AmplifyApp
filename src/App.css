@@ -97,7 +97,7 @@ input {
   left: 1%;
 } */
 
-#notes_label {
+#notes_label, #completed_tasks_notes, #upcoming_tasks_notes {
   position: relative;
   left: .5%;
 }
