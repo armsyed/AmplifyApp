@@ -7,6 +7,8 @@ import { createNote as createNoteMutation, deleteNote as deleteNoteMutation } fr
 // import { jsPDF } from "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js";
 import jsPDF from 'jspdf'
 import autoTable from 'jspdf-autotable';
+import { TextField } from '@aws-amplify/ui-react';
+
 
 const initialFormState = { name: '', description: '' }
 
@@ -504,13 +506,13 @@ class App extends React.Component {
         <h3>Tasks completed this week</h3>
         <div id="completed_tasks"> 
           <label id="completed_tasks_label"> Notes:
-            <textarea id="completed_tasks_notes" name="Text1" cols="40" rows="5"></textarea>
+            <textarea id="completed_tasks_notes" name="Text1" cols="75" rows="20"></textarea>
           </label>
         </div>
         <h3>Upcoming Tasks</h3>
         <div id="upcoming_tasks"> 
           <label id="upcoming_tasks_label"> Notes:
-            <textarea id="upcoming_tasks_notes" name="Text1" cols="40" rows="5"></textarea>
+            <textarea id="upcoming_tasks_notes" name="Text1" cols="75" rows="20"></textarea>
           </label>
         </div>
         <div id="button">
