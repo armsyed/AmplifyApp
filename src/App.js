@@ -169,7 +169,7 @@ class App extends React.Component {
     doc.setFontSize(14);
     doc.setFont(undefined, 'bold').text(20, 460, 'Upcoming Tasks: ');
     doc.setFontSize(10);
-    doc.setFont(undefined, 'normal').text(60, 480, document.getElementById("completed_tasks_notes").value )
+    doc.setFont(undefined, 'normal').text(60, 480, document.getElementById("upcoming_tasks_notes").value )
   
     
     doc.save('demo.pdf')
